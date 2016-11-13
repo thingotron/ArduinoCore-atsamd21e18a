@@ -73,7 +73,7 @@ void board_init(void)
   PM->APBBSEL.reg = PM_APBBSEL_APBBDIV_DIV1_Val;
   PM->APBCSEL.reg = PM_APBCSEL_APBCDIV_DIV1_Val;
 
-  //board_init_usb_clock();
+  board_init_usb_clock(); //vputz
 }
 
 void board_init_osc32k(void)
