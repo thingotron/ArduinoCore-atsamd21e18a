@@ -1,0 +1,52 @@
+{
+    "packages": [
+	{
+	    "name" : "Thingotron",
+	    "maintainer" : "Thingotron",
+	    "websiteURL": "https://www.thingotron.com",
+	    "platforms": [
+		{
+		    "category": "Thingotron",
+		    "help": {
+			"online": "http://wiki.thingotron.com"
+		    },
+		    "url": "https://... github... thingotron-samd-0.0.9.tar.bz2",
+		    "checksum": "SHA-256:7f97863b67de8bf9f7d22881706f7614e4e96c76596900cf794b6c8ad1c2e3e0",
+		    "category": "Arduino",
+		    "name": "Thingotron SAMD boards",
+		    "version": "0.0.9",
+		    "architecture": "samd",
+		    "archiveFileName": "thingotron-samd-0.0.9.tar.bz2",
+		    "size": "7599493",
+		    "toolsDependencies": [
+			{
+			    "packager": "arduino",
+			    "version": "4.8.3-2014q1",
+			    "name": "arm-none-eabi-gcc"
+			},
+			{
+			    "packager": "arduino",
+			    "version": "1.6.1-arduino",
+			    "name": "bossac"
+			},
+			{
+			    "packager": "arduino",
+			    "version": "0.9.0-arduino",
+			    "name": "openocd"
+			},
+			{
+			    "packager": "arduino",
+			    "version": "4.0.0-atmel",
+			    "name": "CMSIS"
+			}
+		    ],
+		    "boards": [
+			{
+			    "name": "Orbotron 9001"
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
